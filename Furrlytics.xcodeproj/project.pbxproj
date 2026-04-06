@@ -21,6 +21,19 @@
 		A100000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100000C /* Assets.xcassets */; };
 		A100000D /* U001_DateServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000F /* U001_DateServiceTests.swift */; };
 		A100000E /* U002_CareEventMetadataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000010 /* U002_CareEventMetadataTests.swift */; };
+		A1000010 /* CatAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000020 /* CatAvatarView.swift */; };
+		A1000011 /* LocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000021 /* LocationPickerView.swift */; };
+		A1000012 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* OnboardingFlowView.swift */; };
+		A1000013 /* CatProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* CatProfileSetupView.swift */; };
+		A1000014 /* HomeLocationSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000024 /* HomeLocationSetupView.swift */; };
+		A1000015 /* PetlibroConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PetlibroConnectView.swift */; };
+		A1000016 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000026 /* HomeView.swift */; };
+		A1000017 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000027 /* SettingsView.swift */; };
+		A1000018 /* HomeLocationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000028 /* HomeLocationSettingsView.swift */; };
+		A1000019 /* PetlibroSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000029 /* PetlibroSettingsView.swift */; };
+		A100001A /* CatProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002A /* CatProfileSettingsView.swift */; };
+		A100001B /* U003_OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002B /* U003_OnboardingTests.swift */; };
+		A100001C /* IT001_OnboardingPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002C /* IT001_OnboardingPersistenceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +63,19 @@
 		B100000E /* FurrlyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurrlyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B100000F /* U001_DateServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U001_DateServiceTests.swift; sourceTree = "<group>"; };
 		B1000010 /* U002_CareEventMetadataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U002_CareEventMetadataTests.swift; sourceTree = "<group>"; };
+		B1000020 /* CatAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAvatarView.swift; sourceTree = "<group>"; };
+		B1000021 /* LocationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerView.swift; sourceTree = "<group>"; };
+		B1000022 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		B1000023 /* CatProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfileSetupView.swift; sourceTree = "<group>"; };
+		B1000024 /* HomeLocationSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocationSetupView.swift; sourceTree = "<group>"; };
+		B1000025 /* PetlibroConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroConnectView.swift; sourceTree = "<group>"; };
+		B1000026 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1000027 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1000028 /* HomeLocationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocationSettingsView.swift; sourceTree = "<group>"; };
+		B1000029 /* PetlibroSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroSettingsView.swift; sourceTree = "<group>"; };
+		B100002A /* CatProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfileSettingsView.swift; sourceTree = "<group>"; };
+		B100002B /* U003_OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U003_OnboardingTests.swift; sourceTree = "<group>"; };
+		B100002C /* IT001_OnboardingPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IT001_OnboardingPersistenceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				B1000008 /* ContentView.swift */,
+				F1000010 /* Components */,
+				F1000011 /* Onboarding */,
+				F1000012 /* Home */,
+				F1000013 /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				F100000C /* UnitTests */,
+				F1000014 /* IntegrationTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -169,6 +200,7 @@
 			children = (
 				F100000D /* U001 */,
 				F100000E /* U002 */,
+				F1000015 /* U003 */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -187,6 +219,69 @@
 				B1000010 /* U002_CareEventMetadataTests.swift */,
 			);
 			path = U002;
+			sourceTree = "<group>";
+		};
+		F1000015 /* U003 */ = {
+			isa = PBXGroup;
+			children = (
+				B100002B /* U003_OnboardingTests.swift */,
+			);
+			path = U003;
+			sourceTree = "<group>";
+		};
+		F1000014 /* IntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1000016 /* IT001 */,
+			);
+			path = IntegrationTests;
+			sourceTree = "<group>";
+		};
+		F1000016 /* IT001 */ = {
+			isa = PBXGroup;
+			children = (
+				B100002C /* IT001_OnboardingPersistenceTests.swift */,
+			);
+			path = IT001;
+			sourceTree = "<group>";
+		};
+		F1000010 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1000020 /* CatAvatarView.swift */,
+				B1000021 /* LocationPickerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1000011 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B1000022 /* OnboardingFlowView.swift */,
+				B1000023 /* CatProfileSetupView.swift */,
+				B1000024 /* HomeLocationSetupView.swift */,
+				B1000025 /* PetlibroConnectView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F1000012 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1000026 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F1000013 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B1000027 /* SettingsView.swift */,
+				B1000028 /* HomeLocationSettingsView.swift */,
+				B1000029 /* PetlibroSettingsView.swift */,
+				B100002A /* CatProfileSettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		F100000B /* Preview Content */ = {
@@ -307,6 +402,17 @@
 				A1000009 /* DateService.swift in Sources */,
 				A100000A /* PetlibroService.swift in Sources */,
 				A100000B /* KeychainHelper.swift in Sources */,
+				A1000010 /* CatAvatarView.swift in Sources */,
+				A1000011 /* LocationPickerView.swift in Sources */,
+				A1000012 /* OnboardingFlowView.swift in Sources */,
+				A1000013 /* CatProfileSetupView.swift in Sources */,
+				A1000014 /* HomeLocationSetupView.swift in Sources */,
+				A1000015 /* PetlibroConnectView.swift in Sources */,
+				A1000016 /* HomeView.swift in Sources */,
+				A1000017 /* SettingsView.swift in Sources */,
+				A1000018 /* HomeLocationSettingsView.swift in Sources */,
+				A1000019 /* PetlibroSettingsView.swift in Sources */,
+				A100001A /* CatProfileSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +422,8 @@
 			files = (
 				A100000D /* U001_DateServiceTests.swift in Sources */,
 				A100000E /* U002_CareEventMetadataTests.swift in Sources */,
+				A100001B /* U003_OnboardingTests.swift in Sources */,
+				A100001C /* IT001_OnboardingPersistenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +565,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Furrlytics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "喵谱需要您的位置来设置家的地理围栏，以自动检测您离家和回家的时间。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -485,6 +594,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Furrlytics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "喵谱需要您的位置来设置家的地理围栏，以自动检测您离家和回家的时间。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

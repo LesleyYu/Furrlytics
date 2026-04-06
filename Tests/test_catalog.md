@@ -9,9 +9,10 @@
 |----|-------------|------|--------|
 | U001 | DateService — 4 AM day boundary logic | UnitTests/U001/U001_DateServiceTests.swift | `calculateLogicalDate()`, `logicalDayStart()`, `logicalDayEnd()` in DateService |
 | U002 | CareEvent — metadata key validation and enum correctness | UnitTests/U002/U002_CareEventMetadataTests.swift | CareEvent initialization, metadata key constants, EventType/DataSource enums |
+| U003 | Onboarding — MD5 hashing, model validation, credential keys | UnitTests/U003/U003_OnboardingTests.swift | MD5 hash correctness, CatProfile/HomeLocation init defaults, PetlibroCredentialKeys |
 
 ## Integration Tests
 
 | ID | Description | File | Covers |
 |----|-------------|------|--------|
-| (none yet) | | | |
+| IT001 | Onboarding persistence — SwiftData CRUD for CatProfile and HomeLocation | IntegrationTests/IT001/IT001_OnboardingPersistenceTests.swift | Insert/query/update/delete CatProfile and HomeLocation via in-memory ModelContainer |

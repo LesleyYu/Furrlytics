@@ -81,10 +81,22 @@ See `DesignDoc.md` at the project root for the full product specification, inclu
   - PetlibroService protocol + stub implementation (modularly isolated)
   - KeychainHelper for credential storage
   - FurrlyticsApp entry point with ModelContainer, AppState with onboarding flag
-  - ContentView placeholder (routes based on onboarding state)
-  - Unit tests: U001 (DateService, 9 tests), U002 (CareEvent metadata, 10 tests) — all 19 passing
-  - test_catalog.md initialized
   - .gitignore configured per project standards
+- Iteration 1: Onboarding flow
+  - OnboardingFlowView: 3-step linear flow (cat profiles → home location → Petlibro connect)
+  - CatProfileSetupView: stepper (1-6 cats), name fields, PhotosPicker with JPEG compression
+  - HomeLocationSetupView + LocationPickerView: MapKit map with tap-to-place pin, radius slider (100-500m), CLLocationManager for initial GPS
+  - PetlibroConnectView: email/password form, MD5 hash via CryptoKit, Keychain save, skip option
+  - HomeView: placeholder main screen with settings entry (gear icon)
+  - SettingsView: hub linking to cat management, home location, Petlibro
+  - CatProfileSettingsView: add/edit/delete cats with photo picker
+  - HomeLocationSettingsView: reuses LocationPickerView for updating home
+  - PetlibroSettingsView: reconnect/disconnect with status display
+  - CatAvatarView: shared component (photo or initial circle)
+  - ContentView routes to OnboardingFlowView or HomeView based on AppState
+  - NSLocationWhenInUseUsageDescription added to Info.plist build settings
+  - Tests: U003 (onboarding logic, 10 tests), IT001 (persistence, 7 tests) — all 36 tests passing
+  - test_catalog.md updated
 
 ### In Progress
 - Nothing

@@ -41,6 +41,13 @@ struct PetlibroFeedingRecord: Sendable {
     let foodType: String
 }
 
+// MARK: - Credential Keys
+
+enum PetlibroCredentialKeys {
+    static let email = "petlibro_email"
+    static let passwordHash = "petlibro_password_hash"
+}
+
 // MARK: - PetlibroService
 
 @Observable

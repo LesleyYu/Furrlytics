@@ -5,11 +5,9 @@ struct ContentView: View {
 
     var body: some View {
         if appState.isOnboardingComplete {
-            Text("Furrlytics Home")
-                .font(.largeTitle)
+            HomeView()
         } else {
-            Text("Onboarding Placeholder")
-                .font(.largeTitle)
+            OnboardingFlowView()
         }
     }
 }
