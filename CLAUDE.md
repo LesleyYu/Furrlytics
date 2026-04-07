@@ -3,6 +3,8 @@
 > This file is automatically loaded by Claude Code at the start of every session.
 > It serves as the index to all project standards and project-specific context.
 
+你不能总是假设我非常清楚自己想要什么和该怎么得到。请保持审慎，从原始需求和问题出发，如果动机和目标不清晰，停下来和我讨论。如果目标清晰但是路径不是最短，告诉我，并且建议更好的办法
+
 ---
 
 ## Project Standards
@@ -71,7 +73,7 @@ See `DesignDoc.md` at the project root for the full product specification, inclu
 
 ## Session Status
 
-**Last updated:** 2026-04-06
+**Last updated:** 2026-04-07
 
 ### Completed
 - Iteration 0: Project scaffolding and data layer
@@ -97,9 +99,18 @@ See `DesignDoc.md` at the project root for the full product specification, inclu
   - NSLocationWhenInUseUsageDescription added to Info.plist build settings
   - Tests: U003 (onboarding logic, 10 tests), IT001 (persistence, 7 tests) — all 36 tests passing
   - test_catalog.md updated
+- Iteration 2 (partial): Home layout skeleton + feeding & play recording
+  - HomeView: ScrollView layout with quick action buttons, weekly summary placeholder, recent timeline with EventRowView
+  - QuickActionButton: reusable large button component (icon, title, color)
+  - EventRowView: event card with type icon, metadata summary, timestamp, cat name
+  - RecordFeedingView: cat selection (auto-select single cat, avatar row for multi-cat), food description input, saves CareEvent with foodType "wet"
+  - RecordPlayView: same cat selection pattern, preset duration grid (5-60 min), saves CareEvent with durationMinutes
+  - CatSelectionItem: shared avatar selection component with highlight ring
+  - Both sheets wired to HomeView quick action buttons via .sheet
+  - All 36 tests passing, no warnings
 
 ### In Progress
-- Nothing
+- Iteration 2: remaining tasks — Petlibro API integration, foreground polling
 
 ### Blocked / Pending Engineer Input
 - Nothing

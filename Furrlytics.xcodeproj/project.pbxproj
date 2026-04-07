@@ -7,39 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1000001 /* FurrlyticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* FurrlyticsApp.swift */; };
-		A1000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* AppState.swift */; };
-		A1000003 /* CareEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* CareEvent.swift */; };
-		A1000004 /* CatProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* CatProfile.swift */; };
-		A1000005 /* HomeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* HomeLocation.swift */; };
-		A1000006 /* DewormingSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* DewormingSchedule.swift */; };
-		A1000007 /* TreatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* TreatItem.swift */; };
-		A1000008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* ContentView.swift */; };
-		A1000009 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000009 /* DateService.swift */; };
-		A100000A /* PetlibroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000A /* PetlibroService.swift */; };
-		A100000B /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000B /* KeychainHelper.swift */; };
-		A100000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100000C /* Assets.xcassets */; };
-		A100000D /* U001_DateServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000F /* U001_DateServiceTests.swift */; };
-		A100000E /* U002_CareEventMetadataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000010 /* U002_CareEventMetadataTests.swift */; };
-		A1000010 /* CatAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000020 /* CatAvatarView.swift */; };
-		A1000011 /* LocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000021 /* LocationPickerView.swift */; };
-		A1000012 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* OnboardingFlowView.swift */; };
-		A1000013 /* CatProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* CatProfileSetupView.swift */; };
-		A1000014 /* HomeLocationSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000024 /* HomeLocationSetupView.swift */; };
-		A1000015 /* PetlibroConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PetlibroConnectView.swift */; };
-		A1000016 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000026 /* HomeView.swift */; };
-		A1000017 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000027 /* SettingsView.swift */; };
-		A1000018 /* HomeLocationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000028 /* HomeLocationSettingsView.swift */; };
-		A1000019 /* PetlibroSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000029 /* PetlibroSettingsView.swift */; };
-		A100001A /* CatProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002A /* CatProfileSettingsView.swift */; };
-		A100001B /* U003_OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002B /* U003_OnboardingTests.swift */; };
-		A100001C /* IT001_OnboardingPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002C /* IT001_OnboardingPersistenceTests.swift */; };
+		'A1000001' = {isa = PBXBuildFile; fileRef = B1000001; };
+		'A1000002' = {isa = PBXBuildFile; fileRef = B1000002; };
+		'A1000003' = {isa = PBXBuildFile; fileRef = B1000003; };
+		'A1000004' = {isa = PBXBuildFile; fileRef = B1000004; };
+		'A1000005' = {isa = PBXBuildFile; fileRef = B1000005; };
+		'A1000006' = {isa = PBXBuildFile; fileRef = B1000006; };
+		'A1000007' = {isa = PBXBuildFile; fileRef = B1000007; };
+		'A1000008' = {isa = PBXBuildFile; fileRef = B1000008; };
+		'A1000009' = {isa = PBXBuildFile; fileRef = B1000009; };
+		'A100000A' = {isa = PBXBuildFile; fileRef = B100000A; };
+		'A100000B' = {isa = PBXBuildFile; fileRef = B100000B; };
+		'A100000C' = {isa = PBXBuildFile; fileRef = B100000C; };
+		'A100000D' = {isa = PBXBuildFile; fileRef = B100000F; };
+		'A100000E' = {isa = PBXBuildFile; fileRef = B1000010; };
+		'A1000010' = {isa = PBXBuildFile; fileRef = B1000020; };
+		'A1000011' = {isa = PBXBuildFile; fileRef = B1000021; };
+		'A1000012' = {isa = PBXBuildFile; fileRef = B1000022; };
+		'A1000013' = {isa = PBXBuildFile; fileRef = B1000023; };
+		'A1000014' = {isa = PBXBuildFile; fileRef = B1000024; };
+		'A1000015' = {isa = PBXBuildFile; fileRef = B1000025; };
+		'A1000016' = {isa = PBXBuildFile; fileRef = B1000026; };
+		'A1000017' = {isa = PBXBuildFile; fileRef = B1000027; };
+		'A1000018' = {isa = PBXBuildFile; fileRef = B1000028; };
+		'A1000019' = {isa = PBXBuildFile; fileRef = B1000029; };
+		'A100001A' = {isa = PBXBuildFile; fileRef = B100002A; };
+		'A100001B' = {isa = PBXBuildFile; fileRef = B100002B; };
+		'A100001C' = {isa = PBXBuildFile; fileRef = B100002C; };
+		DE974D84856ABBCB4CE086DF /* RecordPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25004B4BBA6913F38722ECC9 /* RecordPlayView.swift */; };
+		FCEC4E42A949C12F74857F75 /* RecordFeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B4E63B18052396CBC096C /* RecordFeedingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1100001 /* PBXContainerItemProxy */ = {
+		'A1100001' = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1000001 /* Project object */;
+			containerPortal = C1000001;
 			proxyType = 1;
 			remoteGlobalIDString = D1000001;
 			remoteInfo = Furrlytics;
@@ -47,46 +49,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B1000001 /* FurrlyticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurrlyticsApp.swift; sourceTree = "<group>"; };
-		B1000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		B1000003 /* CareEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareEvent.swift; sourceTree = "<group>"; };
-		B1000004 /* CatProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfile.swift; sourceTree = "<group>"; };
-		B1000005 /* HomeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocation.swift; sourceTree = "<group>"; };
-		B1000006 /* DewormingSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DewormingSchedule.swift; sourceTree = "<group>"; };
-		B1000007 /* TreatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatItem.swift; sourceTree = "<group>"; };
-		B1000008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B1000009 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
-		B100000A /* PetlibroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroService.swift; sourceTree = "<group>"; };
-		B100000B /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
-		B100000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B100000D /* Furrlytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furrlytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B100000E /* FurrlyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurrlyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B100000F /* U001_DateServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U001_DateServiceTests.swift; sourceTree = "<group>"; };
-		B1000010 /* U002_CareEventMetadataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U002_CareEventMetadataTests.swift; sourceTree = "<group>"; };
-		B1000020 /* CatAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAvatarView.swift; sourceTree = "<group>"; };
-		B1000021 /* LocationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerView.swift; sourceTree = "<group>"; };
-		B1000022 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
-		B1000023 /* CatProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfileSetupView.swift; sourceTree = "<group>"; };
-		B1000024 /* HomeLocationSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocationSetupView.swift; sourceTree = "<group>"; };
-		B1000025 /* PetlibroConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroConnectView.swift; sourceTree = "<group>"; };
-		B1000026 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B1000027 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		B1000028 /* HomeLocationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocationSettingsView.swift; sourceTree = "<group>"; };
-		B1000029 /* PetlibroSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroSettingsView.swift; sourceTree = "<group>"; };
-		B100002A /* CatProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfileSettingsView.swift; sourceTree = "<group>"; };
-		B100002B /* U003_OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U003_OnboardingTests.swift; sourceTree = "<group>"; };
-		B100002C /* IT001_OnboardingPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IT001_OnboardingPersistenceTests.swift; sourceTree = "<group>"; };
+		25004B4BBA6913F38722ECC9 /* RecordPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordPlayView.swift; path = Furrlytics/Views/Home/RecordPlayView.swift; sourceTree = SOURCE_ROOT; };
+		364B4E63B18052396CBC096C /* RecordFeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordFeedingView.swift; path = Furrlytics/Views/Home/RecordFeedingView.swift; sourceTree = SOURCE_ROOT; };
+		'B1000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurrlyticsApp.swift; sourceTree = "<group>"; };
+		'B1000002' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		'B1000003' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareEvent.swift; sourceTree = "<group>"; };
+		'B1000004' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfile.swift; sourceTree = "<group>"; };
+		'B1000005' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocation.swift; sourceTree = "<group>"; };
+		'B1000006' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DewormingSchedule.swift; sourceTree = "<group>"; };
+		'B1000007' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatItem.swift; sourceTree = "<group>"; };
+		'B1000008' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		'B1000009' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		'B100000A' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroService.swift; sourceTree = "<group>"; };
+		'B100000B' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		'B100000C' = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		'B100000D' = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furrlytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		'B100000E' = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurrlyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		'B100000F' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U001_DateServiceTests.swift; sourceTree = "<group>"; };
+		'B1000010' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U002_CareEventMetadataTests.swift; sourceTree = "<group>"; };
+		'B1000020' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAvatarView.swift; sourceTree = "<group>"; };
+		'B1000021' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerView.swift; sourceTree = "<group>"; };
+		'B1000022' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		'B1000023' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfileSetupView.swift; sourceTree = "<group>"; };
+		'B1000024' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocationSetupView.swift; sourceTree = "<group>"; };
+		'B1000025' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroConnectView.swift; sourceTree = "<group>"; };
+		'B1000026' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		'B1000027' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		'B1000028' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocationSettingsView.swift; sourceTree = "<group>"; };
+		'B1000029' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetlibroSettingsView.swift; sourceTree = "<group>"; };
+		'B100002A' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfileSettingsView.swift; sourceTree = "<group>"; };
+		'B100002B' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U003_OnboardingTests.swift; sourceTree = "<group>"; };
+		'B100002C' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IT001_OnboardingPersistenceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E1000001 /* Frameworks */ = {
+		'E1000001' = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1000002 /* Frameworks */ = {
+		'E1000002' = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,211 +100,213 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1000001 /* Root */ = {
+		'F1000001' = {
 			isa = PBXGroup;
 			children = (
-				F1000002 /* Furrlytics */,
-				F100000A /* Tests */,
-				F1000009 /* Products */,
+				F1000002,
+				F100000A,
+				F1000009,
+				364B4E63B18052396CBC096C /* RecordFeedingView.swift */,
+				25004B4BBA6913F38722ECC9 /* RecordPlayView.swift */,
 			);
 			sourceTree = "<group>";
 		};
-		F1000002 /* Furrlytics */ = {
+		'F1000002' = {
 			isa = PBXGroup;
 			children = (
-				F1000003 /* App */,
-				F1000004 /* Models */,
-				F1000005 /* Views */,
-				F1000006 /* Services */,
-				F1000007 /* Utilities */,
-				F1000008 /* Resources */,
-				F100000B /* Preview Content */,
+				F1000003,
+				F1000004,
+				F1000005,
+				F1000006,
+				F1000007,
+				F1000008,
+				F100000B,
 			);
 			path = Furrlytics;
 			sourceTree = "<group>";
 		};
-		F1000003 /* App */ = {
+		'F1000003' = {
 			isa = PBXGroup;
 			children = (
-				B1000001 /* FurrlyticsApp.swift */,
-				B1000002 /* AppState.swift */,
+				B1000001,
+				B1000002,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		F1000004 /* Models */ = {
+		'F1000004' = {
 			isa = PBXGroup;
 			children = (
-				B1000003 /* CareEvent.swift */,
-				B1000004 /* CatProfile.swift */,
-				B1000005 /* HomeLocation.swift */,
-				B1000006 /* DewormingSchedule.swift */,
-				B1000007 /* TreatItem.swift */,
+				B1000003,
+				B1000004,
+				B1000005,
+				B1000006,
+				B1000007,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F1000005 /* Views */ = {
+		'F1000005' = {
 			isa = PBXGroup;
 			children = (
-				B1000008 /* ContentView.swift */,
-				F1000010 /* Components */,
-				F1000011 /* Onboarding */,
-				F1000012 /* Home */,
-				F1000013 /* Settings */,
+				B1000008,
+				F1000010,
+				F1000011,
+				F1000012,
+				F1000013,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		F1000006 /* Services */ = {
+		'F1000006' = {
 			isa = PBXGroup;
 			children = (
-				B1000009 /* DateService.swift */,
-				B100000A /* PetlibroService.swift */,
+				B1000009,
+				B100000A,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		F1000007 /* Utilities */ = {
+		'F1000007' = {
 			isa = PBXGroup;
 			children = (
-				B100000B /* KeychainHelper.swift */,
+				B100000B,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		F1000008 /* Resources */ = {
+		'F1000008' = {
 			isa = PBXGroup;
 			children = (
-				B100000C /* Assets.xcassets */,
+				B100000C,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		F1000009 /* Products */ = {
+		'F1000009' = {
 			isa = PBXGroup;
 			children = (
-				B100000D /* Furrlytics.app */,
-				B100000E /* FurrlyticsTests.xctest */,
+				B100000D,
+				B100000E,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F100000A /* Tests */ = {
+		'F100000A' = {
 			isa = PBXGroup;
 			children = (
-				F100000C /* UnitTests */,
-				F1000014 /* IntegrationTests */,
+				F100000C,
+				F1000014,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		F100000C /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				F100000D /* U001 */,
-				F100000E /* U002 */,
-				F1000015 /* U003 */,
-			);
-			path = UnitTests;
-			sourceTree = "<group>";
-		};
-		F100000D /* U001 */ = {
-			isa = PBXGroup;
-			children = (
-				B100000F /* U001_DateServiceTests.swift */,
-			);
-			path = U001;
-			sourceTree = "<group>";
-		};
-		F100000E /* U002 */ = {
-			isa = PBXGroup;
-			children = (
-				B1000010 /* U002_CareEventMetadataTests.swift */,
-			);
-			path = U002;
-			sourceTree = "<group>";
-		};
-		F1000015 /* U003 */ = {
-			isa = PBXGroup;
-			children = (
-				B100002B /* U003_OnboardingTests.swift */,
-			);
-			path = U003;
-			sourceTree = "<group>";
-		};
-		F1000014 /* IntegrationTests */ = {
-			isa = PBXGroup;
-			children = (
-				F1000016 /* IT001 */,
-			);
-			path = IntegrationTests;
-			sourceTree = "<group>";
-		};
-		F1000016 /* IT001 */ = {
-			isa = PBXGroup;
-			children = (
-				B100002C /* IT001_OnboardingPersistenceTests.swift */,
-			);
-			path = IT001;
-			sourceTree = "<group>";
-		};
-		F1000010 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				B1000020 /* CatAvatarView.swift */,
-				B1000021 /* LocationPickerView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		F1000011 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				B1000022 /* OnboardingFlowView.swift */,
-				B1000023 /* CatProfileSetupView.swift */,
-				B1000024 /* HomeLocationSetupView.swift */,
-				B1000025 /* PetlibroConnectView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		F1000012 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				B1000026 /* HomeView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		F1000013 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				B1000027 /* SettingsView.swift */,
-				B1000028 /* HomeLocationSettingsView.swift */,
-				B1000029 /* PetlibroSettingsView.swift */,
-				B100002A /* CatProfileSettingsView.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		F100000B /* Preview Content */ = {
+		'F100000B' = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		'F100000C' = {
+			isa = PBXGroup;
+			children = (
+				F100000D,
+				F100000E,
+				F1000015,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		'F100000D' = {
+			isa = PBXGroup;
+			children = (
+				B100000F,
+			);
+			path = U001;
+			sourceTree = "<group>";
+		};
+		'F100000E' = {
+			isa = PBXGroup;
+			children = (
+				B1000010,
+			);
+			path = U002;
+			sourceTree = "<group>";
+		};
+		'F1000010' = {
+			isa = PBXGroup;
+			children = (
+				B1000020,
+				B1000021,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		'F1000011' = {
+			isa = PBXGroup;
+			children = (
+				B1000022,
+				B1000023,
+				B1000024,
+				B1000025,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		'F1000012' = {
+			isa = PBXGroup;
+			children = (
+				B1000026,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		'F1000013' = {
+			isa = PBXGroup;
+			children = (
+				B1000027,
+				B1000028,
+				B1000029,
+				B100002A,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		'F1000014' = {
+			isa = PBXGroup;
+			children = (
+				F1000016,
+			);
+			path = IntegrationTests;
+			sourceTree = "<group>";
+		};
+		'F1000015' = {
+			isa = PBXGroup;
+			children = (
+				B100002B,
+			);
+			path = U003;
+			sourceTree = "<group>";
+		};
+		'F1000016' = {
+			isa = PBXGroup;
+			children = (
+				B100002C,
+			);
+			path = IT001;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1000001 /* Furrlytics */ = {
+		'D1000001' = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = G1000003 /* Build configuration list for PBXNativeTarget "Furrlytics" */;
+			buildConfigurationList = G1000003;
 			buildPhases = (
-				E1000003 /* Sources */,
-				E1000001 /* Frameworks */,
-				E1000004 /* Resources */,
+				E1000003,
+				E1000001,
+				E1000004,
 			);
 			buildRules = (
 			);
@@ -308,31 +314,31 @@
 			);
 			name = Furrlytics;
 			productName = Furrlytics;
-			productReference = B100000D /* Furrlytics.app */;
+			productReference = B100000D;
 			productType = "com.apple.product-type.application";
 		};
-		D1000002 /* FurrlyticsTests */ = {
+		'D1000002' = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = G1000006 /* Build configuration list for PBXNativeTarget "FurrlyticsTests" */;
+			buildConfigurationList = G1000006;
 			buildPhases = (
-				E1000005 /* Sources */,
-				E1000002 /* Frameworks */,
-				E1000006 /* Resources */,
+				E1000005,
+				E1000002,
+				E1000006,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1100002 /* PBXTargetDependency */,
+				A1100002,
 			);
 			name = FurrlyticsTests;
 			productName = FurrlyticsTests;
-			productReference = B100000E /* FurrlyticsTests.xctest */;
+			productReference = B100000E;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1000001 /* Project object */ = {
+		'C1000001' = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
@@ -348,7 +354,7 @@
 					};
 				};
 			};
-			buildConfigurationList = G1000001 /* Build configuration list for PBXProject "Furrlytics" */;
+			buildConfigurationList = G1000001;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -357,27 +363,27 @@
 				Base,
 				zh,
 			);
-			mainGroup = F1000001 /* Root */;
-			productRefGroup = F1000009 /* Products */;
+			mainGroup = F1000001;
+			productRefGroup = F1000009;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1000001 /* Furrlytics */,
-				D1000002 /* FurrlyticsTests */,
+				D1000001,
+				D1000002,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E1000004 /* Resources */ = {
+		'E1000004' = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A100000C /* Assets.xcassets in Resources */,
+				A100000C,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1000006 /* Resources */ = {
+		'E1000006' = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,58 +393,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E1000003 /* Sources */ = {
+		'E1000003' = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1000001 /* FurrlyticsApp.swift in Sources */,
-				A1000002 /* AppState.swift in Sources */,
-				A1000003 /* CareEvent.swift in Sources */,
-				A1000004 /* CatProfile.swift in Sources */,
-				A1000005 /* HomeLocation.swift in Sources */,
-				A1000006 /* DewormingSchedule.swift in Sources */,
-				A1000007 /* TreatItem.swift in Sources */,
-				A1000008 /* ContentView.swift in Sources */,
-				A1000009 /* DateService.swift in Sources */,
-				A100000A /* PetlibroService.swift in Sources */,
-				A100000B /* KeychainHelper.swift in Sources */,
-				A1000010 /* CatAvatarView.swift in Sources */,
-				A1000011 /* LocationPickerView.swift in Sources */,
-				A1000012 /* OnboardingFlowView.swift in Sources */,
-				A1000013 /* CatProfileSetupView.swift in Sources */,
-				A1000014 /* HomeLocationSetupView.swift in Sources */,
-				A1000015 /* PetlibroConnectView.swift in Sources */,
-				A1000016 /* HomeView.swift in Sources */,
-				A1000017 /* SettingsView.swift in Sources */,
-				A1000018 /* HomeLocationSettingsView.swift in Sources */,
-				A1000019 /* PetlibroSettingsView.swift in Sources */,
-				A100001A /* CatProfileSettingsView.swift in Sources */,
+				A1000001,
+				A1000002,
+				A1000003,
+				A1000004,
+				A1000005,
+				A1000006,
+				A1000007,
+				A1000008,
+				A1000009,
+				A100000A,
+				A100000B,
+				A1000010,
+				A1000011,
+				A1000012,
+				A1000013,
+				A1000014,
+				A1000015,
+				A1000016,
+				A1000017,
+				A1000018,
+				A1000019,
+				A100001A,
+				FCEC4E42A949C12F74857F75 /* RecordFeedingView.swift in Sources */,
+				DE974D84856ABBCB4CE086DF /* RecordPlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1000005 /* Sources */ = {
+		'E1000005' = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A100000D /* U001_DateServiceTests.swift in Sources */,
-				A100000E /* U002_CareEventMetadataTests.swift in Sources */,
-				A100001B /* U003_OnboardingTests.swift in Sources */,
-				A100001C /* IT001_OnboardingPersistenceTests.swift in Sources */,
+				A100000D,
+				A100000E,
+				A100001B,
+				A100001C,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A1100002 /* PBXTargetDependency */ = {
+		'A1100002' = {
 			isa = PBXTargetDependency;
-			target = D1000001 /* Furrlytics */;
-			targetProxy = A1100001 /* PBXContainerItemProxy */;
+			target = D1000001;
+			targetProxy = A1100001;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		H1000001 /* Debug */ = {
+		'H1000001' = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -500,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		H1000002 /* Release */ = {
+		'H1000002' = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -555,7 +563,7 @@
 			};
 			name = Release;
 		};
-		H1000003 /* Debug */ = {
+		'H1000003' = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -578,13 +586,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.furrlytics.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		H1000004 /* Release */ = {
+		'H1000004' = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -607,13 +618,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.furrlytics.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		H1000005 /* Debug */ = {
+		'H1000005' = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -631,7 +645,7 @@
 			};
 			name = Debug;
 		};
-		H1000006 /* Release */ = {
+		'H1000006' = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,35 +666,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		G1000001 /* Build configuration list for PBXProject "Furrlytics" */ = {
+		'G1000001' = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				H1000001 /* Debug */,
-				H1000002 /* Release */,
+				H1000001,
+				H1000002,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		G1000003 /* Build configuration list for PBXNativeTarget "Furrlytics" */ = {
+		'G1000003' = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				H1000003 /* Debug */,
-				H1000004 /* Release */,
+				H1000003,
+				H1000004,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		G1000006 /* Build configuration list for PBXNativeTarget "FurrlyticsTests" */ = {
+		'G1000006' = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				H1000005 /* Debug */,
-				H1000006 /* Release */,
+				H1000005,
+				H1000006,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
-	rootObject = C1000001 /* Project object */;
+	rootObject = C1000001;
 }
